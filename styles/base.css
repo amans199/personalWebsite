@@ -1,0 +1,47 @@
+/* Base styles and CSS reset */
+:root {
+  /* Colors */
+  --primary: #1a1a1a;
+  --primary-dark: #0f0f0f;
+  --accent: #2d2d2d;
+  --text: #ffffff;
+  --text-light: #a3a3a3;
+  --bg: #121212;
+  --bg-alt: #1a1a1a;
+  --border: #2d2d2d;
+  
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+  
+  /* Layout */
+  --container: 1200px;
+  --radius: 0.5rem;
+  
+  /* Effects */
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

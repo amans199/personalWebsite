@@ -1,0 +1,25 @@
+/* Utility classes */
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: var(--radius);
+  border: 3px solid var(--bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}

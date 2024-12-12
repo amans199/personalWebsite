@@ -1,0 +1,46 @@
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #9333ea;
+  --primary-dark: #7e22ce;
+  --text: #1f2937;
+  --text-light: #6b7280;
+  --bg: #ffffff;
+  --bg-alt: #f8f7ff;
+  --header-bg: #1e1b4b;
+  --border: #e5e7eb;
+  --max-width: 1200px;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  flex: 1;
+}

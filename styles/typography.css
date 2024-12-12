@@ -1,0 +1,46 @@
+/* Typography */
+h1, h2, h3 {
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+}
+
+h1 {
+  font-size: 3rem;
+  background: linear-gradient(135deg, var(--text), var(--text-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: var(--space-md);
+  color: var(--text-light);
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+nav a {
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: calc(var(--radius) / 2);
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  background: var(--accent);
+}
+
+time {
+  color: var(--text-light);
+  font-size: 0.875rem;
+}
